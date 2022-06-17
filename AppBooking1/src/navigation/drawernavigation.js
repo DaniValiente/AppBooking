@@ -9,14 +9,12 @@ const Drawer = createDrawerNavigator();
 
 export default function DrawerNavigator() {
     return (
-
-        <NavigationContainer>
           <Drawer.Navigator initialRouteName="Home">
             <Drawer.Screen name="Home" component={homeScreen} />
             <Drawer.Screen name="Perfil" component={profileScreen} />
             <Drawer.Screen name="Reservas" component={bookingScreen} />
           </Drawer.Navigator>
-        </NavigationContainer>
+
       );
   }
   
